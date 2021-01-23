@@ -7,8 +7,8 @@ namespace :push_message do
     }
 
     client = Line::Bot::Client.new { |config|
-      config.channel_secret = "ab0db3d8a15ea6a0dd128451c876721f"
-      config.channel_token = "6tRR8tzRKN0HQlNDD2nE5Xl4xnp9dqlSuCCPncD6Gnh3VUXG9hWelC9/MKqhunpDmR7FCCKrAsZ5Q4PRWDu+baKCaU2ubcQZNiTqyEf18StXt7bjUAJQ06QJONdSnN+bNdOsOWF5O06GUIPA6N+jIgdB04t89/1O/w1cDnyilFU="
+      config.channel_secret = ENV["LINE_CHANNEL_SECRET"]
+      config.channel_token = ENV["LINE_CHANNEL_TOKEN"]
     }
 
     LineUser.all.each do |user|
