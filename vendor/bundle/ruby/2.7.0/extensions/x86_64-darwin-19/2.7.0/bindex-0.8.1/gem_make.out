@@ -1,0 +1,15 @@
+current directory: /Users/a5/kiatsu_alert/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/a5/.rbenv/versions/2.7.0/bin/ruby -I /Users/a5/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20210123-79086-gb0sla.rb extconf.rb
+creating Makefile
+
+current directory: /Users/a5/kiatsu_alert/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/a5/kiatsu_alert/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/a5/kiatsu_alert/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20210123-79086-1bdhy77/skiptrace/internal
